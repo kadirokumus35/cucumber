@@ -6,7 +6,7 @@ Then Log in yazisina tiklar
 And gecersiz username girer
 And gecerli password girer
 And Log in butonuna tiklar
-Then sayfaya giris yaptigini kontrol eder
+Then sayfaya giris yapilamadigini kontrol eder
 And sayfayi kapatir
 
 
@@ -16,5 +16,5 @@ And sayfayi kapatir
     And gecerli username girer
     And gecersiz password girer
     And Log in butonuna tiklar
-    Then sayfaya giris yaptigini kontrol eder
+    Then sayfaya giris yapilamadigini kontrol eder
     And sayfayi kapatir

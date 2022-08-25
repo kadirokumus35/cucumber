@@ -45,4 +45,9 @@ public class HMCStepDef {
     public void gecersizPasswordGirer() {
         hmcPage.usernameKutusu.sendKeys(ConfigReader.getProperty("HMCWrongPassword"));
     }
+
+    @Then("sayfaya giris yapilamadigini kontrol eder")
+    public void sayfayaGirisYapilamadiginiKontrolEder() {
+        Assert.assertTrue(hmcPage.loginButonu2.isDisplayed());
+    }
 }
