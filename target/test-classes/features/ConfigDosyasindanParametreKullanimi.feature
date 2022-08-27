@@ -1,6 +1,6 @@
 Feature: parametre ile config file kullanilabilmeli
 
-
+@parametre
   Scenario: TC01 config proper dosyasindan parametre kullanimi
     Given kullanici "amazonUrl" anasayfasinda
     And kullanici 3 saniye bekler
