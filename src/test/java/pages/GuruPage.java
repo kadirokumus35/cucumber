@@ -15,7 +15,13 @@ public class GuruPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//thead//tr")
+    @FindBy(xpath = "//thead//tr//th")
     public List<WebElement> baslikListesi;
+
+    @FindBy(xpath = "//tr//th[1]")
+    public List<WebElement> Company;
+
+    @FindBy (id="logwatch")
+    public WebElement iframe;
 
 }

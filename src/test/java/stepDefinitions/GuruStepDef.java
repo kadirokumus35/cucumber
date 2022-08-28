@@ -14,12 +14,12 @@ public class GuruStepDef {
     GuruPage guruPage=new GuruPage();
     @Given("{string} sutunundaki tum degerleri yazdirir")
     public void sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
-
+//Driver.getDriver().switchTo().frame(guruPage.iframe);
         List<WebElement> tabloBaslikListesi=guruPage.baslikListesi;
         int istenenBaslikListesi=-3;
         for (int i = 0; i < tabloBaslikListesi.size() ; i++) {
             if (tabloBaslikListesi.get(i).getText().equals(istenenSutun)){
-                istenenBaslikListesi=i;
+                istenenBaslikListesi=i+1;
                 break;
             }
         }
