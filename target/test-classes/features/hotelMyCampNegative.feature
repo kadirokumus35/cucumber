@@ -9,7 +9,7 @@ And Log in butonuna tiklar
 Then sayfaya giris yapilamadigini kontrol eder
 And sayfayi kapatir
 
-
+@pr2
   Scenario: yanlis password ile giris yapilamaz
     Given kullanici "HMCUrl" anasayfasinda
     Then Log in yazisina tiklar

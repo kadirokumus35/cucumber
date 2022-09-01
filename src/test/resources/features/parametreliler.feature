@@ -1,5 +1,5 @@
 Feature: parametre kullanarak arama yapabilmeli
-@prmtre
+@pr1
   Scenario: parametree ile amazonda arama yapabilmeli
     Given kullanici amazon anasayfasinda
     And kullanici "Java" icin arama yapar
