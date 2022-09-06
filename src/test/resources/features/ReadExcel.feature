@@ -1,5 +1,5 @@
 Feature:  kullanici excel bilgilerine ulasir
-
+@excell
   Scenario: kullanici excel bilgilerini kullanir
 
     Given kullanici excel dosyasini kullanilabilir hale getirir

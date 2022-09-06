@@ -7,4 +7,4 @@ Feature: parametre kullanarak arama yapabilmeli
     And sayfayi kapatir
 
   #tırnak içindeki ve rakamlar dinamik algılanır
-  #configde yazarak stepDef calıstırılır yeni stepDef e gerek kalmaz
+  #configde yazarak stepDef c  alıstırılır yeni stepDef e gerek kalmaz
